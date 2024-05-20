@@ -1,4 +1,4 @@
-FROM python:3.9-bullseye
+FROM python:3.12-bullseye
 RUN mkdir /app
 COPY /requirements.txt /app/
 COPY /workers /app/workers
