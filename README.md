@@ -1,6 +1,9 @@
 # Base container for python workers
 This repository contains a sample set of workers and Dockerfile for running python workers in a container environment.
 
+# Conductor Python SDK
+https://github.com/conductor-sdk/conductor-python
+
 # Build Container
 ```shell
 docker build . -t <TAG>
